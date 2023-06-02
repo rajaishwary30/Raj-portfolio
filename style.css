@@ -11,7 +11,7 @@
     --forth-color: linear-gradient(to left, #ac30ff 0%, rgb(255, 55, 55) 100%);
 }
 .light-theme{
-    --primary-color: #fff; 
+    --primary-color: #ffffff; 
     --secondary-color: black;
     --tertiary-color: #fdccff;
     --forth-color: linear-gradient(to left, #ac30ffaf 0%, rgba(255, 55, 55, 0.701) 100%);
@@ -34,14 +34,13 @@ body{
     color: var(--secondary-color);
 }
 #header{
-    width : 100%;
+    width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
-    /* background-image: url(images/web8.png); */
-    background-size: cover;
-    background-position: center;
+    background-image: url(images/abcdef.png);
+    background-size: 40%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: 700px 230px;
 }
 .container{
     padding: 10px 10%;
@@ -422,7 +421,7 @@ nav .fas{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/abcdef.png);
     }
     .header-text{
         margin-top: 100%;
